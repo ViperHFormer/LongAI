@@ -1,0 +1,5 @@
+oracle_modes:
+  - gt_transcript_gt_acoustic
+  - pred_transcript_gt_acoustic
+  - gt_transcript_pred_acoustic
+  - pred_transcript_pred_acoustic

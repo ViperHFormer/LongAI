@@ -1,0 +1,1 @@
+"""MCoC construction pipeline."""

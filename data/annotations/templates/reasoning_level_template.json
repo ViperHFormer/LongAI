@@ -1,0 +1,13 @@
+{
+  "session_id": "session_0000",
+  "qa_items": [
+    {
+      "query_id": "q1",
+      "query": "What is pending next?",
+      "answer": "Unknown",
+      "type": "next_intent"
+    }
+  ],
+  "next_intent_labels": [],
+  "planning_refs": []
+}

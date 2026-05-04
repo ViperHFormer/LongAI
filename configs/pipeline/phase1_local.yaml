@@ -1,0 +1,14 @@
+experiment_name: phase1_local
+backend: local_hf
+paths:
+  source_dir: "/aiot-hdd-nas-hk01/helixing/ego4d data/v2/video 540ss"
+  pilot_manifest: data/raw/pilot_subset_manifest.jsonl
+  audio_manifest: data/processed/audio_manifest.jsonl
+  session_manifest: data/processed/session_manifest.jsonl
+  artifacts_dir: artifacts
+subset:
+  max_sessions: 24
+  min_duration_sec: 300
+  max_duration_sec: 3600
+audio:
+  sample_rate: 16000
